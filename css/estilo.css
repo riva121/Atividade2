@@ -1,16 +1,12 @@
-body {
-    background: #fff6ec;
-}
+body { background: #fff6ec; font-family: Arial, Helvetica, sans-serif;}
+header { display:flexbox; text-align: center; }
+.logo img { width: 200px; }
 
-header {
-    
-    text-align: center;
-}
 
-.logo img {
-    width: 200px;
-}
+nav { color: #824500; }
+nav a {color: #824500; text-decoration: none; padding:3px ;}
+nav a:hover {color: #fff6ec; background: #824500; border-radius: 5px;}
 
-nav {
-    color: #824500;
-}
+main {text-align: center;}
+
+footer {text-align: center; color: #824500;}
